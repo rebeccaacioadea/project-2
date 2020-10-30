@@ -1,0 +1,123 @@
+// every page but home
+.background {
+  min-height: 100vh;
+  background-size: cover;
+}
+.media-content {
+  left: 15px;
+  bottom: 13px;
+}
+// home page
+.hero {
+  background-size: cover;
+}
+.container.has-text-centered {
+  background-color: rgba(13, 13, 99, 0.212);
+}
+.title {
+ color: antiquewhite; 
+ font-family: 'PT Serif', serif;
+}
+.subtitle {
+  color: white;
+  font-family: 'Syne Tactile', cursive;
+}
+// navbar
+.navbar {
+  font-family: 'PT Serif', serif;
+  font-weight: bolder;
+  background-color: rgb(13, 13, 99);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.button {
+  background-color: rgba(73, 73, 177, 0.721);
+  border-radius: 0.1;
+  color: rgb(225, 227, 227);
+  border-color: rgba(67, 67, 155, 0.721);
+}
+.button.is-light {
+  background-color: rgba(73, 73, 177, 0.721);
+  border-radius: 0.1;
+  color: rgb(225, 227, 227);
+  border-color: rgba(67, 67, 155, 0.721);
+}
+.button:hover {
+  background-color: rgba(95, 95, 171, 0.721);
+  color:rgb(225, 227, 227);
+  border-width: 2.5px;
+}
+.button.is-light:hover {
+  background-color: rgb(225, 227, 227);
+  color:rgba(73, 73, 177, 0.721); 
+}
+// forecast page
+.title.is-4 {
+  color: rgba(73, 73, 177, 0.721);
+  padding-bottom: 13px;
+}
+.subtitle.is-4 {
+  color: rgba(95, 95, 171, 0.721);
+  font-size: 20px;
+  line-height: 0.5;
+  font-family: 'PT Serif', serif;
+  text-transform: capitalize;
+}
+.card.forecast-card {
+  background-color: rgb(251, 255, 255);
+}
+// city and search results
+.title.is-10 {
+  color: rgba(73, 73, 177, 0.721);
+  padding-bottom: 13px;
+}
+.subtitle.is-10 {
+  font-size: 20px;
+  line-height: 0.5;
+  font-family: 'PT Serif', serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.subtitle.is-10.description {
+  color: rgba(95, 95, 171, 0.721);
+  font-size: 20px;
+  line-height: 0.5;
+  font-family: 'PT Serif', serif;
+  text-transform: capitalize;
+}
+.container.city-group {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.card-footer-item {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.loading {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(225, 227, 227);
+  padding: 80px;
+  font-family: 'PT Serif', serif;
+}
+// search page
+.search {
+  padding: 7px;
+  margin-left: 5px;
+  border-radius: 2;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(73, 73, 177, 0.721)
+}
+.container.search-city {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.input.search-input {
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+}
