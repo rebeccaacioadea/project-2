@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import Background from '../styles/image/background.jpg'
+// import Background from '../styles/image/background.jpg'
 import Search from './Search'
 
 const SearchResult = (props) => {
@@ -20,12 +20,12 @@ console.log(search)
 console.log(Background)
 
   if (!search.name) {
-    return <div className="background" style={{backgroundImage: `url("${Background}")` }}>
+    return <div className="background">
       <h2 className="loading"> Loading... </h2>
     </div>
   }
 
-  return  <div className="background" style={{ backgroundImage: `url("${Background}")` }}>
+  return  <div className="background">
     <Search />
     <div className="section">
     <div className="container city-group">
