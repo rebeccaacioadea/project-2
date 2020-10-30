@@ -17,7 +17,6 @@ const SearchResult = (props) => {
       })
   }, [searchId])
 console.log(search)
-console.log(Background)
 
   if (!search.name) {
     return <div className="background">
