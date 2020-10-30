@@ -8,17 +8,17 @@ const Search = () => {
   const [cityFilter, updateCityFilter] = useState('')
 
   useEffect(() => {
-    axios.get(`https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/forecast?access_key=a848c9cf9160abde52d49e6e6613652b&query=Italy/`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=London&appid=8569449663f37c3e52851a11d8ac7e5c`)
       .then(resp => {
         updateApi(resp.data)
         console.log(resp.data)
       })
   }, [])
 
-
+console.log(api)
   function filterCity() {
     const filteredCity = api.filter(search => {
-      const name = search.location.name.toLowerCase()
+      const name = search.main.name.toLowerCase()
       const filterText = cityFilter.toLowerCase()
       return name.includes(filterText)
     })
@@ -40,6 +40,7 @@ const Search = () => {
 
       </div>
     </div>
+  return <h1>h</h1>
 }
 
 export default Search
