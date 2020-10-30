@@ -19,12 +19,12 @@ const SearchResult = (props) => {
 console.log(search)
 
   if (!search.name) {
-    return <div className="background" style={{backgroundImage: `url("${Background}")` }}>
+    return <div className="background" style={{backgroundImage: `url(${Background})` }}>
       <h2 className="loading"> Loading... </h2>
     </div>
   }
 
-  return  <div className="background" style={{ backgroundImage: `url("${Background}")` }}>
+  return  <div className="background" style={{ backgroundImage: `url(${Background})` }}>
     <Search />
     <div className="section">
     <div className="container city-group">
