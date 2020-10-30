@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
-import Background from '../styles/image/background.jpg'
 import Search from './Search'
 
 const Forecast = () => {
@@ -14,8 +13,8 @@ const Forecast = () => {
         updateForecasts(resp.data.list)
       })
   }, [])
-console.log(Background)
-  return <div className="background" style={{ backgroundImage: `url("${Background}")` }}>
+
+  return <div className="background">
        <Search />
     <div className="section">
       <div className="container">

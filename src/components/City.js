@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import Background from '../styles/image/background.jpg'
 import Search from './Search'
 
 
@@ -30,7 +29,7 @@ const City = (props) => {
   console.log(city)
 
 
-  return <div className="background" style={{ backgroundImage: `url("${Background}")` }}>
+  return <div className="background">
     <Search />
     <div className="section">
     <div className="container city-group">

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-// import Background from '../styles/image/background.jpg'
 import Search from './Search'
 
 const SearchResult = (props) => {
