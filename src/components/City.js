@@ -14,7 +14,7 @@ const City = (props) => {
 
 
   useEffect(() => {
-    axios.get(`http://api.openweathermap.org/data/2.5/group?id=${cityId}&appid=8569449663f37c3e52851a11d8ac7e5c`)
+    axios.get(`https://api.openweathermap.org/data/2.5/group?id=${cityId}&appid=8569449663f37c3e52851a11d8ac7e5c`)
       .then(resp => {
         const data = resp.data
         updateCity(data)
