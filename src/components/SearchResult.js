@@ -9,7 +9,7 @@ const SearchResult = (props) => {
   const [search, updateSearch] = useState({})
 
   useEffect(() => {
-    axios.get(`https://api.weatherstack.com/forecast?access_key=a848c9cf9160abde52d49e6e6613652b&query=${searchId}/`)
+    axios.get(`http://api.weatherstack.com/forecast?access_key=a848c9cf9160abde52d49e6e6613652b&query=${searchId}/`)
       .then(resp => {
         const data = resp.data
         updateSearch(data)

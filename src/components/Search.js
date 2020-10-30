@@ -8,7 +8,7 @@ const Search = () => {
   const [cityFilter, updateCityFilter] = useState('')
 
   useEffect(() => {
-    axios.get(`https://api.weatherstack.com/forecast?access_key=a848c9cf9160abde52d49e6e6613652b&query=Italy/`)
+    axios.get(`http://api.weatherstack.com/forecast?access_key=a848c9cf9160abde52d49e6e6613652b&query=Italy/`)
       .then(resp => {
         updateApi(resp.data)
         console.log(resp.data)
