@@ -14,7 +14,7 @@ const Forecast = () => {
         updateForecasts(resp.data.list)
       })
   }, [])
-
+console.log(Background)
   return <div className="background" style={{ backgroundImage: `url("${Background}")` }}>
        <Search />
     <div className="section">
