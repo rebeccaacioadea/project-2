@@ -85,3 +85,8 @@ Throughout this project, I have learnt:
 3. Importance of setting and meeting deadlines
 4. Presentation skill as we had to demonstrate our demo
 
+## Contributors
+
+[Rebecca](https://github.com/rebeccaacioadea)
+
+[Natasha](https://github.com/lechmere)
