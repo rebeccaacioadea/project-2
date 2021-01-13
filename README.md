@@ -58,7 +58,7 @@ For this project we used only one public APIs, [openweather](https://openweather
 
 2. Endpoint to access the information for the weather by the name of the city. We used this endpoint for our search bar, This able the user to search for the weather in any city.
 
-######***https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid=8569449663f37c3e52851a11d8ac7e5c***
+###### ***https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid=8569449663f37c3e52851a11d8ac7e5c***
 
 
 
