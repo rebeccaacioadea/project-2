@@ -76,9 +76,9 @@ We used BrowserRouter provided by ***'react-router-dom'*** for routing the compo
 ![](https://i.imgur.com/sstJRRUm.png)
 ![](https://i.imgur.com/DUnvAiJm.png)
 ![](https://i.imgur.com/xkBi8RPm.png)
-## Potential future features
 
-### Problems 
+
+## Problems 
 During this project, we spent most time working on separate components, hence more than one component at a time, we were faced with so many errors and we didn’t know what was causing them, and on top of that every time I wanted to ‘console.log’ on chrome, my partner had to do it for me. The solution I came out with was, I copied the code for the components I was working on and commented out the code on my partner VS Code.  I use my own VScode to write the code, and chrome to test that it works properly before inserting the code back to our project. 
 
 ## Key learnings:
