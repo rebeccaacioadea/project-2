@@ -9,13 +9,13 @@ The aim of this project is to build a "React application" that consumes a public
 
 ### Brief:
 
-* Build a React Application
-* Use a minimum of one public API
-* Have Several components - At least one classic and one functional
-* The application should include a router- with several pages
-* Include wireframes 
-* Have semantically clean HTML and 
-* Be deploy online and accessible to the public
+* Build a React Application.
+* Use a minimum of one public API.
+* Have Several components - At least one classic and one functional.
+* The application should include a router- with several pages.
+* Include wireframes. 
+* Use semantically clean HTML and CSS (adhere to best practices).
+* Be deploy online and accessible to the public.
 
 ### Technologies:
 
@@ -34,7 +34,7 @@ The aim of this project is to build a "React application" that consumes a public
 
 
 ## Functionality: 
-* User is able to search for the weather in any city around the world
+* User is able to search for the weather in any city around the world.
 * The background of the card showing the weather forecast changes according to how hot/ cold the city is. 
 
 ## Approach taken:
@@ -43,7 +43,7 @@ We had to roughly draw out our plans, thinking in details of different component
 
 1. I setted up the git repository on GitHub and then I added another collaborator onto the project to give them access to it. 
 2. We had only 48 hours to complete this project. We started off by pair programming setting up the basic components and BrowserRouter for our application via *VSCode Liveshare*. 
-3. Since there was not enough time, we separated work and I took charge of working on the navigation bars, weather forecast and city pages
+3. Since there was not enough time, we separated work and I took charge of working on the navigation bars, weather forecast and city pages.
 
 
 ## The Wireframe
@@ -56,7 +56,7 @@ For this project we used only one public APIs, [openweather](https://openweather
 
 ###### ***https://api.openweathermap.org/data/2.5/group?id={city_id}***
 
-2. Endpoint to access the information for the weather by the name of the city. We used this endpoint for our search bar, This able the user to search for the weather in any city
+2. Endpoint to access the information for the weather by the name of the city. We used this endpoint for our search bar, This able the user to search for the weather in any city.
 
 ######***https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid=8569449663f37c3e52851a11d8ac7e5c***
 
@@ -82,14 +82,14 @@ We used BrowserRouter provided by ***'react-router-dom'*** for routing the compo
 During this project, we spent most time working on separate components, hence more than one component at a time, we were faced with so many errors and we didn’t know what was causing them, and on top of that every time I wanted to ‘console.log’ on chrome, my partner had to do it for me. The solution I came out with was, I copied the code for the components I was working on and commented out the code on my partner VS Code.  I use my own VScode to write the code, and chrome to test that it works properly before inserting the code back to our project. 
 
 ## Key learnings:
-By the end of this project, I had become more confident in using public API, accessing and manipulating information from an endpoint to build a React application
+By the end of this project, I had become more confident in using public API, accessing and manipulating information from an endpoint to build a React application.
 
 Throughout this project, I have learnt:
 
 1. Communication is vital when collaborating with others. 
-2. Effectiveness of planning 
-3. Importance of setting and meeting deadlines
-4. Presentation skill as we had to demonstrate our demo
+2. Effectiveness of planning. 
+3. Importance of setting and meeting deadlines.
+4. Presentation skill as we had to demonstrate our demo.
 
 
 
