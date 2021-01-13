@@ -1,9 +1,9 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-## Project-2: <<< Weather Forecast >>>
+## Project-2: <<< [Weather Forecast](https://rebeccaacioadea.github.io/project-2) >>>
 
 ## Overview 
-This is my second project at General Assembly as a Software Engineer Immersive course's student. It was a pair programming 
+This is my second project at General Assembly as a Software Engineer Immersive course's student. This was a pair programming and it had to be completed within 48 hours.
 
 The aim of this project is to build a "React application" that consumes a public API.
 
@@ -50,10 +50,17 @@ We had to roughly draw out our plans, thinking in details of different component
 ![](https://i.imgur.com/h56OKdSl.png)
 
 ## Endpoints
-This project consists of two endpoints:
+For this project we used only one public APIs, [openweather](https://openweathermap.org/api) with two different endpoints:
 
-* Endpoint to access and manipulate the information for the weather forecast.
-* The second endpoint was used when searching for the city.
+1. Endpoint to access and manipulate the information for the weather forecast by the city id.
+
+###### ***https://api.openweathermap.org/data/2.5/group?id={city_id}***
+
+2. Endpoint to access the information for the weather by the name of the city. We used this endpoint for our search bar, This able the user to search for the weather in any city
+
+######***https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid=8569449663f37c3e52851a11d8ac7e5c***
+
+
 
 ## Components and their routes
 ![](https://i.imgur.com/OoaOJifm.png)
@@ -72,11 +79,10 @@ We used BrowserRouter provided by ***'react-router-dom'*** for routing the compo
 ## Potential future features
 
 ### Problems 
-During this project, we spent most time working on separate components, hence more than one component at a time, we were faced with so much errors and we didn’t know what was causing them, and on top of that every time I wanted to ‘console.log’ on chrome, my partner had to do it for me. The solution I came out with was, I copied the code for the components I was working on and commented out the code on my partner VS Code.  I use my own VScode to write the code, and chrome to test that it works properly before inserting the code back to our project. 
+During this project, we spent most time working on separate components, hence more than one component at a time, we were faced with so many errors and we didn’t know what was causing them, and on top of that every time I wanted to ‘console.log’ on chrome, my partner had to do it for me. The solution I came out with was, I copied the code for the components I was working on and commented out the code on my partner VS Code.  I use my own VScode to write the code, and chrome to test that it works properly before inserting the code back to our project. 
 
-## Summary
-
-By the end of this project, I became more confident in using public API to build a React application
+## Key learnings:
+By the end of this project, I had become more confident in using public API, accessing and manipulating information from an endpoint to build a React application
 
 Throughout this project, I have learnt:
 
@@ -84,6 +90,8 @@ Throughout this project, I have learnt:
 2. Effectiveness of planning 
 3. Importance of setting and meeting deadlines
 4. Presentation skill as we had to demonstrate our demo
+
+
 
 ## Contributors
 
